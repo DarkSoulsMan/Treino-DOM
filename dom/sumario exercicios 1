@@ -1,0 +1,73 @@
+Exercícios de DOM —
+✅ 1. Alterar o texto de um parágrafo
+HTML:
+<p id="mensagem">Texto original</p>
+<button id="mudarTexto">Mudar texto</button>
+Desafio:
+Ao clicar no botão, mude o texto do parágrafo para "Texto alterado com sucesso!".
+
+✅ 2. Alterar a cor de fundo
+HTML:
+<button id="mudarCor">Mudar cor</button>
+Desafio:
+Ao clicar no botão, altere a cor de fundo da página para azul claro (lightblue).
+
+✅ 3. Mostrar um parágrafo oculto
+HTML:
+<p id="oculto" style="display: none;">Surpresa! Agora você me vê!</p>
+<button id="mostrarParagrafo">Mostrar</button>
+Desafio:
+Ao clicar no botão, o parágrafo oculto deve aparecer.
+
+✅ 4. Adicionar um novo item a uma lista
+HTML:
+<ul id="lista">
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+<button id="adicionarItem">Adicionar item</button>
+Desafio:
+Ao clicar, adicione um novo <li> com o texto "Novo item".
+
+✅ 5. Contar cliques em tempo real
+HTML:
+<p>Você clicou <span id="contador">0</span> vezes.</p>
+<button id="botaoContador">Clique aqui</button>
+Desafio:
+Cada clique no botão aumenta o contador em 1.
+
+✅ 6. Mostrar o texto digitado em tempo real
+HTML:
+<input type="text" id="entrada">
+<p id="saida"></p>
+Desafio:
+Enquanto o usuário digita, o conteúdo do parágrafo muda para o texto digitado.
+
+✅ 7. Alternar visibilidade (mostrar/ocultar)
+HTML:
+<p id="textoSecreto">Este texto pode desaparecer.</p>
+<button id="toggleTexto">Mostrar/Ocultar</button>
+Desafio:
+Ao clicar, o texto some. Se clicar de novo, ele aparece.
+
+✅ 8. Mudar a imagem ao clicar
+HTML:
+<img id="imagem" src="imagem1.jpg" width="200">
+<button id="trocarImagem">Trocar imagem</button>
+Desafio:
+Ao clicar, a imagem muda para imagem2.jpg.
+
+✅ 9. Criar uma lista completa com botão
+HTML:
+<div id="listaContainer"></div>
+<button id="criarLista">Criar lista</button>
+Desafio:
+Ao clicar, crie uma lista <ul> com os itens "Item A", "Item B" e "Item C" dentro da #listaContainer.
+
+✅ 10. Validação simples de formulário
+HTML:
+<input type="text" id="nome" placeholder="Digite seu nome">
+<button id="validar">Enviar</button>
+<p id="erro" style="color: red;"></p>
+Desafio:
+Se o campo estiver vazio ao clicar em "Enviar", exiba a mensagem "O campo nome é obrigatório".
